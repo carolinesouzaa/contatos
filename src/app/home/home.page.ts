@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 @Component({
@@ -9,5 +10,29 @@ import { IonicModule } from '@ionic/angular';
   imports: [IonicModule],
 })
 export class HomePage {
-  constructor() {}
+  constructor(
+
+    private router: Router
+
+  ) {}
+
+  navegacao() {
+    this.router.navigate(["/contato"])
+  }
+
+  navegacao2() {
+    this.router.navigate(["/contato2"])
+  }
+
+  navegacao3() {
+    this.router.navigate(["/contato3"])
+  }
+
+  navegacao4() {
+    this.router.navigate(["/contato4"])
+  }
+
+  navegacao5() {
+    this.router.navigate(["/contato5"])
+  }
 }
