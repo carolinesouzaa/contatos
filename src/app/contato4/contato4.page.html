@@ -1,13 +1,18 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>contato4</ion-title>
+    <ion-buttons slot="start">
+      <ion-button (click)="voltar()">
+        <ion-icon slot="icon-only" name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">contato4</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="contato ion-text-center">
+  <img src="https://img.ibxk.com.br/2019/02/17/17124052466014.jpg" alt="">
+  <ion-title>Rafael</ion-title>
+  <ion-label>
+    <p>rafaelsantos@gmail.com</p>
+    <p>04</p>
+  </ion-label>
 </ion-content>

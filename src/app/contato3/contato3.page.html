@@ -1,13 +1,18 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>contato3</ion-title>
+    <ion-buttons slot="start">
+      <ion-button (click)="voltar()">
+        <ion-icon slot="icon-only" name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">contato3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" class="contato ion-text-center">
+  <img src="https://uploads-ssl.webflow.com/637623069753ec9bc412ff15/63877d564c600e5aab8785bd_image-home-hero%402x.webp" alt="">
+  <ion-title>Luiza</ion-title>
+  <ion-label>
+    <p>luizamartins@gmail.com</p>
+    <p>03</p>
+  </ion-label>
 </ion-content>
